@@ -7,7 +7,13 @@ export default class Sidebar extends Component {
 
   
     return (
-      <div>sidebar</div>
+      <div>
+        sidebar
+        this test
+
+
+        </div>
+
 
       
     )
