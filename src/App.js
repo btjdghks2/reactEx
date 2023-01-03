@@ -1,5 +1,5 @@
 import {  Route, Routes } from 'react-router-dom';
-import Sidebar from './components_passvie/sidebardeco/Sidebar';
+import Sidebar from './components_passvie/sidebardeco/Sidebar.jsx';
 
 import './App.css';
 
