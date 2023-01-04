@@ -1,8 +1,6 @@
 import {  Route, Routes } from 'react-router-dom';
-import Sidebar from './components_passvie/sidebardeco/Sidebar.jsx';
-
+import { Sidebar } from './components_passvie/sidebardeco/Sidebar.jsx'
 import './App.css';
-
 import { Main } from './components_ability/Main';
 import { Make } from './components_ability/Make';
 import { Cover } from './components_ability/Cover';
@@ -14,7 +12,7 @@ function App() {
   return (
     <div className="App">
     <Head/>
-      <Sidebar/>
+    <Sidebar />
     <Container>
       <Routes>
         <Route path="/" exact={true} component={ <Main /> }></Route>
