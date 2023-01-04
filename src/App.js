@@ -1,18 +1,18 @@
 import {  Route, Routes } from 'react-router-dom';
-import { Sidebar } from './components_passvie/sidebardeco/Sidebar.jsx'
+
 import './App.css';
 import { Main } from './components_ability/Main';
 import { Make } from './components_ability/Make';
 import { Cover } from './components_ability/Cover';
 import { Remove } from './components_ability/Remove';
 import {Container} from 'react-bootstrap';
-import { Head } from './components_passvie/Head';
+import { Layout } from './components_passvie/sidebardeco/Layout.jsx';
+
 
 function App() {
   return (
     <div className="App">
-    <Head/>
-    <Sidebar />
+<Layout></Layout>
     <Container>
       <Routes>
         <Route path="/" exact={true} component={ <Main /> }></Route>
