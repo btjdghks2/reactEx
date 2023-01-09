@@ -2,10 +2,12 @@ import React from 'react';
 
 
 export const Main = () => {
-  
-  const a = 3;
-  const b = 5;
-  const c = 10;
+
+  let a = 13;
+  const b = 23;
+  let c = 34;
+
+  c = a + b;
 
 
   return (
